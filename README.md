@@ -15,6 +15,7 @@ Welcome to my portfolio website repository! This project showcases my skills and
 
 - **Next.js**: This site is completely coded in Next.js.
 - **Framer-Motion**: Framer motion has been used for animations.
+- **Tailwind CSS**: Used for styles.
   
 ## Features
 
