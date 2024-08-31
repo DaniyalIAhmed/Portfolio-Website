@@ -11,6 +11,11 @@ Welcome to my portfolio website repository! This project showcases my skills and
 - **Node.js**: For server-side logic and API development.
 - **Express.js**: For building RESTful APIs.
 
+## Technologies Used
+
+- **Next.js**: This site is completely coded in Next.js.
+- **Framer-Motion**: Framer motion has been used for animations.
+  
 ## Features
 
 - **Homepage**: An overview of who I am and what I do.
