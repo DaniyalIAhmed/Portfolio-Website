@@ -9,7 +9,7 @@ const Home = () => {
       <div className="container mx-auto h-full">
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
           {/* Description */}
-          <div className="text-center xl:text-left">
+          <div className="text-center xl:text-left order-2 xl:order-none">
             <div className="text-xl mb-[15px]">
               <span className="text-xl">Software </span>
               <span className="text-accent text-xl">Developer</span>
@@ -28,11 +28,16 @@ const Home = () => {
                 <FiDownload className="mr-2" />
                 <span>Resume</span>
               </Button>
-              <Socials containerStyles='flex gap-6' iconStyles='w-9 h-9 text-accent flex justify-center items-center border border-accent rounded-full hover:bg-accent hover:text-primary transition-all' />
+              <Socials
+                containerStyles="flex gap-6"
+                iconStyles="w-9 h-9 text-accent flex justify-center items-center border border-accent rounded-full hover:bg-accent hover:text-primary transition-all"
+              />
             </div>
           </div>
           {/* Photo */}
-          <Photo/>
+          <div className="order-1 xl:order-none mb-8 xl:mb-0">
+            <Photo />
+          </div>
         </div>
       </div>
     </section>
