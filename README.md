@@ -2,7 +2,7 @@
 
 Welcome to my portfolio website repository! This project showcases my skills and experience in web and mobile development. Built with modern technologies, it highlights my work and projects across various domains.
 
-## Technologies Used
+## Skills
 
 - **React**: For building interactive UIs.
 - **Next.js**: For server-side rendering and static site generation.
