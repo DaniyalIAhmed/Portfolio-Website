@@ -19,15 +19,15 @@ const Photo = () => {
             opacity: 1,
             transition: { delay: 2.4, duration: 0.4, ease: "easeInOut" },
           }}
-          className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute"
+          className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute flex justify-center items-center"
         >
           <Image
-            src="/assets/photo.png"
+            src="/assets/cover.jpg"
             priority
             quality={100}
             fill
             alt="Daniyal Ahmed"
-            className="object-contain"
+            className="object-contain rounded-full brightness-50 p-2"
           />
         </motion.div>
         <motion.svg

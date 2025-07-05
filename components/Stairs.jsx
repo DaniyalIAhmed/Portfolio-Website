@@ -1,6 +1,4 @@
 "use client";
-
-import { TooltipPortal } from "@radix-ui/react-tooltip";
 import { motion } from "framer-motion";
 
 const stairAnimation = {
@@ -11,8 +9,17 @@ const stairAnimation = {
     right: "100%",
   },
   exit: {
-    right: ["100%", "0%"],
+    left: ["100%", "0%"],
   },
+  // initial: {
+  //   top: "0%",
+  // },
+  // animate: {
+  //   top: "100%",
+  // },
+  // exit: {
+  //   top: ["100%", "0%"],
+  // },
 };
 
 const reversedIndex = (index) => {
