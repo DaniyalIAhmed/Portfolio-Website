@@ -8,10 +8,6 @@ const links = [
     path: "/",
   },
   {
-    name: "services",
-    path: "/services",
-  },
-  {
     name: "resume",
     path: "/resume",
   },
@@ -19,6 +15,11 @@ const links = [
     name: "projects",
     path: "/projects",
   },
+  {
+    name: "services",
+    path: "/services",
+  },
+  
 ];
 const Nav = () => {
     const pathName =  usePathname();
