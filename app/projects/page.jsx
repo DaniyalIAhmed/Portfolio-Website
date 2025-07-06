@@ -54,8 +54,7 @@ const projects = {
         "Real-time notifications"
       ],
       links: {
-        demo: "#",
-        github: "#",
+        github: "https://github.com/DaniyalIAhmed/Next-Aura",
         download: "/assets/work/next.apk"
       },
       status: "Completed",
@@ -77,15 +76,14 @@ const projects = {
       ],
       features: [
         "AI-powered car recommendations",
-        "Image-based car recognition",
+        "Name based Car image generation",
         "Dynamic pricing analysis",
         "Advanced filtering and search",
-        "User dashboard and profiles",
         "Containerized deployment"
       ],
       links: {
-        demo: "#",
-        github: "#"
+        demo: "https://car-market-smoky.vercel.app/",
+        github: "https://github.com/DaniyalIAhmed/Car-Market"
       },
       status: "Completed",
       year: "2024"
@@ -113,8 +111,7 @@ const projects = {
         "Data preprocessing pipelines"
       ],
       links: {
-        github: "#",
-        demo: "#"
+        github: "https://github.com/DaniyalIAhmed/CNN-LeNET",
       },
       status: "Completed",
       year: "2024"
@@ -142,8 +139,6 @@ const projects = {
         "Containerized deployment"
       ],
       links: {
-        github: "#",
-        docs: "#"
       },
       status: "Completed",
       year: "2024"
