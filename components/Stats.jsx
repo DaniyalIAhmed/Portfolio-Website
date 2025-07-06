@@ -9,7 +9,7 @@ const stats = [
   },
   {
     title: "Years of experience",
-    count: 2,
+    count: 1,
   },
   {
     title: "Technologies mastered",

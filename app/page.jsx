@@ -1,3 +1,4 @@
+"use client"
 import Photo from "@/components/Photo";
 import Socials from "@/components/Socials";
 import Stats from "@/components/Stats";
@@ -5,6 +6,12 @@ import { Button } from "@/components/ui/button";
 import { FiDownload } from "react-icons/fi";
 
 const Home = () => {
+  const handleDownload = () => {
+    const link = document.createElement('a');
+    link.href = '/resume.pdf';
+    link.download = 'resume.pdf';
+    link.click();
+  };
   return (
     <section className="h-full mt-[30px]">
       <div className="container mx-auto h-full">
@@ -16,16 +23,16 @@ const Home = () => {
               <span className="text-accent text-xl">Developer</span>
             </div>
             <h1 className="h1">
-              Hi! I'm
+              Hi! I&apos;m
               <br />
               <span>Daniyal Ahmed</span>
             </h1>
             <p className="max-w-[500px] text-white/80 mb-[30px]">
-              I'm a software developer based in Karachi, Pakistan. I specialize
+              I&apos;m a software developer based in Karachi, Pakistan. I specialize
               in building and designing exceptional digital experiences.
             </p>
             <div className="flex flex-col xl:flex-row items-center gap-8">
-              <Button className="flex justify-center items-center bg-accent border-[1px] border-accent hover:bg-primary hover:text-accent transition-all rounded-[5px] text-primary">
+              <Button onClick={handleDownload} className="flex justify-center items-center bg-accent border-[1px] border-accent hover:bg-primary hover:text-accent transition-all rounded-[5px] text-primary">
                 <FiDownload className="mr-2" />
                 <span>Resume</span>
               </Button>
